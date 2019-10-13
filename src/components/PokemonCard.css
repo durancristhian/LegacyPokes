@@ -1,0 +1,28 @@
+/* To make the keyboard work */
+
+.label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.radio {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio:checked ~ .section {
+  height: auto;
+}
+
+.section {
+  height: 0;
+  overflow: hidden;
+}
+
+/* To actually style the card */
+
+.pokemon {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}

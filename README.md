@@ -1,2 +1,0 @@
-# LegacyPokes
-Created with CodeSandbox
